@@ -11,7 +11,11 @@ def colorfelev(elev):
     return col
 
 df = pandas.read_csv("Volcanoes-USA.txt")
-map = folium.Map(location = [45.372, -121.697], zoom_start = 5
+
+avglat = df['LAT'].mean()
+avglon = df['LON'].mean()
+
+map = folium.Map(location = [avglat, avglon], zoom_start = 5
 , tiles = 'Stamen Terrain')
 
 for lat, lon, name, elev in zip(df['LAT'], df['LON'], df['NAME'], df['ELEV']):
