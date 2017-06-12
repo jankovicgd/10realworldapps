@@ -3,3 +3,8 @@ Website/
 *.db
 
 *.html
+
+*.ipynb
+
+pandas/
+numpy/
