@@ -6,5 +6,12 @@ Website/
 
 *.ipynb
 
+*.exe
+
+*.spec
+
+
+
 pandas/
 numpy/
+__pycache__
