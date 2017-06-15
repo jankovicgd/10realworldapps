@@ -1,5 +1,7 @@
 import sqlite3
 
+# test comment
+
 class Database():
 
     def __init__(self, db):
