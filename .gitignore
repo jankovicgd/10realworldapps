@@ -1,14 +1,12 @@
 Website/
 
 *.db
-
 *.html
-
 *.ipynb
-
 *.exe
-
 *.spec
+
+*.jpg
 
 
 
