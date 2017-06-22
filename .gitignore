@@ -2,7 +2,6 @@ Website/
 
 *.db
 *.html
-*.ipynb
 *.exe
 *.spec
 *.csv
@@ -10,8 +9,4 @@ Website/
 
 *.jpg
 
-
-
-pandas/
-numpy/
 __pycache__
