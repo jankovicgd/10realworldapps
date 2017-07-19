@@ -6,7 +6,8 @@ Website/
 *.spec
 *.csv
 *.xlsx
-
+*.css
 *.jpg
 
 __pycache__
+virtual
